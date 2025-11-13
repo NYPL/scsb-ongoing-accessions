@@ -1,0 +1,778 @@
+{
+  "data": {
+    "id": "23102856",
+    "nyplSource": "sierra-nypl",
+    "title": "Autoritarismi, totalitarismi e luoghi del trauma : da siti di violenza a spazi di memoria",
+    "author": "",
+    "publishYear": 2021,
+    "nyplType": "bib",
+    "controlNumber": "IT5237747",
+    "standardNumbers": [
+      "9788855093811"
+    ],
+    "updatedDate": "2023-07-20T02:06:42",
+    "createdDate": "2023-07-19T11:45:06",
+    "deletedDate": null,
+    "catalogDate": "2023-07-19T00:00:00",
+    "deleted": false,
+    "suppressed": false,
+    "locations": [
+      {
+        "code": "mal",
+        "name": "SASB - Service Desk Rm 315"
+      }
+    ],
+    "lang": {
+      "code": "ita",
+      "name": "Italian"
+    },
+    "materialType": {
+      "code": "a  ",
+      "value": "BOOK/TEXT"
+    },
+    "bibLevel": {
+      "code": "m",
+      "value": "MONOGRAPH"
+    },
+    "country": {
+      "code": "it ",
+      "name": "Italy"
+    },
+    "normTitle": "autoritarismi totalitarismi e luoghi del trauma da siti di violenza a spazi di memoria",
+    "normAuthor": "",
+    "fixedFields": {
+      "24": {
+        "label": "Language",
+        "value": "ita",
+        "display": "Italian"
+      },
+      "25": {
+        "label": "Skip",
+        "value": "0",
+        "display": null
+      },
+      "26": {
+        "label": "Location",
+        "value": "mal  ",
+        "display": "SASB - Service Desk Rm 315"
+      },
+      "27": {
+        "label": "",
+        "value": "1",
+        "display": null
+      },
+      "28": {
+        "label": "Cat. Date",
+        "value": "2023-07-19",
+        "display": null
+      },
+      "29": {
+        "label": "Bib Level",
+        "value": "m",
+        "display": "MONOGRAPH"
+      },
+      "30": {
+        "label": "Material Type",
+        "value": "a  ",
+        "display": "BOOK/TEXT"
+      },
+      "31": {
+        "label": "Bib Code 3",
+        "value": "a",
+        "display": null
+      },
+      "80": {
+        "label": "Record Type",
+        "value": "b",
+        "display": null
+      },
+      "81": {
+        "label": "Record Number",
+        "value": "23102856",
+        "display": null
+      },
+      "83": {
+        "label": "Created Date",
+        "value": "2023-07-19T11:45:06Z",
+        "display": null
+      },
+      "84": {
+        "label": "Updated Date",
+        "value": "2023-07-20T02:06:42Z",
+        "display": null
+      },
+      "85": {
+        "label": "No. of Revisions",
+        "value": "3",
+        "display": null
+      },
+      "86": {
+        "label": "Agency",
+        "value": "1",
+        "display": null
+      },
+      "89": {
+        "label": "Country",
+        "value": "it ",
+        "display": "Italy"
+      },
+      "98": {
+        "label": "",
+        "value": "2023-07-19T16:54:02Z",
+        "display": null
+      },
+      "107": {
+        "label": "MARC Type",
+        "value": " ",
+        "display": null
+      }
+    },
+    "varFields": [
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "700",
+        "fieldTag": "b",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Giubilaro, Chiara,"
+          },
+          {
+            "tag": "e",
+            "content": "editor."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "700",
+        "fieldTag": "b",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Pirazzoli, Elena,"
+          },
+          {
+            "tag": "e",
+            "content": "editor."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "700",
+        "fieldTag": "b",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Tononi, Daniela,"
+          },
+          {
+            "tag": "d",
+            "content": "1979-"
+          },
+          {
+            "tag": "e",
+            "content": "editor."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Holocaust, Jewish (1939-1945)"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "World War, 1939-1945"
+          },
+          {
+            "tag": "x",
+            "content": "Monuments"
+          },
+          {
+            "tag": "z",
+            "content": "Europe."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Memorialization"
+          },
+          {
+            "tag": "z",
+            "content": "Europe."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "War memorials"
+          },
+          {
+            "tag": "z",
+            "content": "Europe."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Collective memory"
+          },
+          {
+            "tag": "z",
+            "content": "Europe."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "World War, 1939-1945"
+          },
+          {
+            "tag": "x",
+            "content": "Atrocities."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "020",
+        "fieldTag": "i",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "9788855093811 :"
+          },
+          {
+            "tag": "c",
+            "content": "15.00 EUR"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "035",
+        "fieldTag": "l",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(OCoLC)1372501041"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "504",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Includes bibliographical references."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "583",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "committed to retain"
+          },
+          {
+            "tag": "d",
+            "content": "in perpetuity"
+          },
+          {
+            "tag": "f",
+            "content": "ReCAP"
+          },
+          {
+            "tag": "f",
+            "content": "Italian Language Imprints Collaborative Collection"
+          },
+          {
+            "tag": "5",
+            "content": "NN"
+          },
+          {
+            "tag": "u",
+            "content": "http://arks.princeton.edu/ark:/88435/dcxg94j1575"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "IT5237747",
+        "marcTag": "001",
+        "fieldTag": "o",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": "1",
+        "content": null,
+        "marcTag": "264",
+        "fieldTag": "p",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Palermo :"
+          },
+          {
+            "tag": "b",
+            "content": "Palermo University Press,"
+          },
+          {
+            "tag": "c",
+            "content": "[2021]"
+          }
+        ]
+      },
+      {
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "852",
+        "fieldTag": "q",
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "ReCAP 23-72692"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "300",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "vi, 127 pages ;"
+          },
+          {
+            "tag": "c",
+            "content": "22 cm."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "336",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "text"
+          },
+          {
+            "tag": "b",
+            "content": "txt"
+          },
+          {
+            "tag": "2",
+            "content": "rdacontent"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "337",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "unmediated"
+          },
+          {
+            "tag": "b",
+            "content": "n"
+          },
+          {
+            "tag": "2",
+            "content": "rdamedia"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "338",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "volume"
+          },
+          {
+            "tag": "b",
+            "content": "nc"
+          },
+          {
+            "tag": "2",
+            "content": "rdacarrier"
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "490",
+        "fieldTag": "s",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "VerbaManent. Clessidre ;"
+          },
+          {
+            "tag": "v",
+            "content": "02"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "830",
+        "fieldTag": "s",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "VerbaManent."
+          },
+          {
+            "tag": "p",
+            "content": "Clessidre ;"
+          },
+          {
+            "tag": "v",
+            "content": "2."
+          }
+        ]
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "245",
+        "fieldTag": "t",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Autoritarismi, totalitarismi e luoghi del trauma :"
+          },
+          {
+            "tag": "b",
+            "content": "da siti di violenza a spazi di memoria /"
+          },
+          {
+            "tag": "c",
+            "content": "a cura di Chiara Giubilaro, Elena Pirazzoli e Daniela Tononi."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "ItFiC",
+        "marcTag": "003",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "20230313143431.0",
+        "marcTag": "005",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "220509s2021    it       b    000 0 ita dnam i ",
+        "marcTag": "008",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "040",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "ItFiC"
+          },
+          {
+            "tag": "b",
+            "content": "eng"
+          },
+          {
+            "tag": "e",
+            "content": "rda"
+          },
+          {
+            "tag": "c",
+            "content": "ItFiC"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "043",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "e------"
+          }
+        ]
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "050",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "D838.E85"
+          },
+          {
+            "tag": "b",
+            "content": "A88 2021"
+          }
+        ]
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "908",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "D838.E85"
+          },
+          {
+            "tag": "b",
+            "content": "A88 2021"
+          }
+        ]
+      },
+      {
+        "ind1": "4",
+        "ind2": "2",
+        "content": null,
+        "marcTag": "856",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "3",
+            "content": "TOC"
+          },
+          {
+            "tag": "u",
+            "content": "http://ilibri.casalini.it/toc/5237747"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "901",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "CSL"
+          },
+          {
+            "tag": "c",
+            "content": "it 22710752"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "910",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "RL"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "960",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "s",
+            "content": "1953"
+          },
+          {
+            "tag": "t",
+            "content": "MAL"
+          },
+          {
+            "tag": "c",
+            "content": "1"
+          },
+          {
+            "tag": "d",
+            "content": "r"
+          },
+          {
+            "tag": "e",
+            "content": "f"
+          },
+          {
+            "tag": "g",
+            "content": "b"
+          },
+          {
+            "tag": "i",
+            "content": "a"
+          },
+          {
+            "tag": "m",
+            "content": "1"
+          },
+          {
+            "tag": "v",
+            "content": "cslcm"
+          },
+          {
+            "tag": "w",
+            "content": "ita"
+          },
+          {
+            "tag": "x",
+            "content": "it"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "981",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "e",
+            "content": "16.50"
+          },
+          {
+            "tag": "i",
+            "content": "17.75"
+          },
+          {
+            "tag": "k",
+            "content": "USD"
+          },
+          {
+            "tag": "u",
+            "content": "1.78"
+          }
+        ]
+      },
+      {
+        "ind1": null,
+        "ind2": null,
+        "content": "00000nam a2200481 i 4500",
+        "marcTag": null,
+        "fieldTag": "_",
+        "subfields": null
+      }
+    ]
+  },
+  "count": 1,
+  "statusCode": 200
+}

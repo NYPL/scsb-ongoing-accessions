@@ -8,13 +8,9 @@ const DataApi = require('../lib/data-api')
 // Require certain argv params to establish what environment to serve:
 require('../lib/local-env-helper')
 
-// var argv = require('optimist')
-//   .argv
-
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv)).parse()
-
 
 function client () {
   return (new DataApi()).dataApiClient()
@@ -69,7 +65,9 @@ function fetchAndWriteFixture (apiPath) {
 * node scripts/update-test-fixtures --all --envfile config/[environment].env --profile [aws profile]
 */
 
-let apiPath = argv._[0]
+process.env.AWS_PROFILE = argv.profile || 'nypl-digital-dev'
+
+const apiPath = argv._[0]
 if (apiPath) {
   fetchAndWriteFixture(apiPath)
     .then((result) => {
@@ -82,7 +80,7 @@ if (argv.all) {
     if (err) console.error(err)
 
     // Gather all .json paths:
-    let apiPaths = paths
+    const apiPaths = paths
       .filter((path) => /\.json$/.test(path))
       .map((path) => decodeURIComponent(path).replace(/\.json$/, ''))
 

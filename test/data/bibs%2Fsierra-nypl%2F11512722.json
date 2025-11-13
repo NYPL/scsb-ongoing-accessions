@@ -1,0 +1,424 @@
+{
+  "data": {
+    "id": "11512722",
+    "nyplSource": "sierra-nypl",
+    "title": "--a long the riverrun-- : för piano solo : 1988",
+    "author": "Engström, Torbjörn.",
+    "publishYear": 1989,
+    "nyplType": "bib",
+    "controlNumber": "NYPG91-C5981",
+    "standardNumbers": [],
+    "updatedDate": "2023-07-18T12:41:35",
+    "createdDate": "2008-12-15T01:36:03",
+    "deletedDate": null,
+    "catalogDate": "1999-09-22T00:00:00",
+    "deleted": false,
+    "suppressed": false,
+    "locations": [
+      {
+        "code": "pam",
+        "name": "Performing Arts Research Collections - Music"
+      }
+    ],
+    "lang": {
+      "code": "zxx",
+      "name": "No linguistic content"
+    },
+    "materialType": {
+      "code": "c  ",
+      "value": "SCORE"
+    },
+    "bibLevel": {
+      "code": "m",
+      "value": "MONOGRAPH"
+    },
+    "country": {
+      "code": "sw ",
+      "name": "Sweden"
+    },
+    "normTitle": "a long the riverrun för piano solo 1988",
+    "normAuthor": "engström torbjörn",
+    "fixedFields": {
+      "24": {
+        "label": "Language",
+        "value": "zxx",
+        "display": "No linguistic content"
+      },
+      "25": {
+        "label": "Skip",
+        "value": "0",
+        "display": null
+      },
+      "26": {
+        "label": "Location",
+        "value": "pam  ",
+        "display": "Performing Arts Research Collections - Music"
+      },
+      "27": {
+        "label": "",
+        "value": "1",
+        "display": null
+      },
+      "28": {
+        "label": "Cat. Date",
+        "value": "1999-09-22",
+        "display": null
+      },
+      "29": {
+        "label": "Bib Level",
+        "value": "m",
+        "display": "MONOGRAPH"
+      },
+      "30": {
+        "label": "Material Type",
+        "value": "c  ",
+        "display": "SCORE"
+      },
+      "31": {
+        "label": "Bib Code 3",
+        "value": "-",
+        "display": null
+      },
+      "80": {
+        "label": "Record Type",
+        "value": "b",
+        "display": null
+      },
+      "81": {
+        "label": "Record Number",
+        "value": "11512722",
+        "display": null
+      },
+      "83": {
+        "label": "Created Date",
+        "value": "2008-12-15T01:36:03Z",
+        "display": null
+      },
+      "84": {
+        "label": "Updated Date",
+        "value": "2023-07-18T12:41:35Z",
+        "display": null
+      },
+      "85": {
+        "label": "No. of Revisions",
+        "value": "7",
+        "display": null
+      },
+      "86": {
+        "label": "Agency",
+        "value": "1",
+        "display": null
+      },
+      "89": {
+        "label": "Country",
+        "value": "sw ",
+        "display": "Sweden"
+      },
+      "98": {
+        "label": "",
+        "value": "2021-11-06T01:00:55Z",
+        "display": null
+      },
+      "107": {
+        "label": "MARC Type",
+        "value": " ",
+        "display": null
+      }
+    },
+    "varFields": [
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "100",
+        "fieldTag": "a",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Engström, Torbjörn."
+          }
+        ]
+      },
+      {
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "852",
+        "fieldTag": "c",
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "JMF 91-1250"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Piano music."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "035",
+        "fieldTag": "l",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "MLC 1991"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "035",
+        "fieldTag": "l",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(WaOLN)nyp1521051"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "500",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Minimal level cataloging."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "NYPG91-C5981",
+        "marcTag": "001",
+        "fieldTag": "o",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "260",
+        "fieldTag": "p",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Stockholm, Sweden :"
+          },
+          {
+            "tag": "b",
+            "content": "Svensk Musik,"
+          },
+          {
+            "tag": "c",
+            "content": "[1989?]"
+          }
+        ]
+      },
+      {
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "852",
+        "fieldTag": "q",
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "JMF 91-1250"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "300",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "6 p. of music ;"
+          },
+          {
+            "tag": "c",
+            "content": "30 x 42 cm."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "245",
+        "fieldTag": "t",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "--a long the riverrun-- :"
+          },
+          {
+            "tag": "b",
+            "content": "för piano solo : 1988 /"
+          },
+          {
+            "tag": "c",
+            "content": "Torbjörn Engström."
+          }
+        ]
+      },
+      {
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "740",
+        "fieldTag": "u",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Along the riverrun."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "959",
+        "fieldTag": "v",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": ".b25441905"
+          },
+          {
+            "tag": "b",
+            "content": "02-05-07"
+          },
+          {
+            "tag": "c",
+            "content": "03-16-92"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "19990913091732.8",
+        "marcTag": "005",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "911029s1989    sw zzz         n    zxx dccm7a ",
+        "marcTag": "008",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "040",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "NN"
+          },
+          {
+            "tag": "c",
+            "content": "NN"
+          },
+          {
+            "tag": "d",
+            "content": "WaOLN"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "997",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "pm"
+          },
+          {
+            "tag": "b",
+            "content": "09-22-99"
+          },
+          {
+            "tag": "c",
+            "content": "m"
+          },
+          {
+            "tag": "d",
+            "content": "c"
+          },
+          {
+            "tag": "e",
+            "content": "-"
+          },
+          {
+            "tag": "f",
+            "content": "zxx"
+          },
+          {
+            "tag": "g",
+            "content": "sw "
+          },
+          {
+            "tag": "h",
+            "content": "0"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "910",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "RL"
+          }
+        ]
+      },
+      {
+        "ind1": null,
+        "ind2": null,
+        "content": "00000ccm  22002177a 4500",
+        "marcTag": null,
+        "fieldTag": "_",
+        "subfields": null
+      }
+    ]
+  },
+  "count": 1,
+  "statusCode": 200
+}
