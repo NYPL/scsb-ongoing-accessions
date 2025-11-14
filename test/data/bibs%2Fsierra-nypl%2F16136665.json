@@ -1,0 +1,632 @@
+{
+  "data": {
+    "id": "16136665",
+    "nyplSource": "sierra-nypl",
+    "title": "\"--es ist doch ein Wesen besonderer Art\" : Hugo von Hofmannsthals \"Ariadne auf Naxos\" und Stuttgart",
+    "author": "Seng, Joachim.",
+    "publishYear": 2005,
+    "nyplType": "bib",
+    "controlNumber": "64282178",
+    "standardNumbers": [
+      "3937384103"
+    ],
+    "updatedDate": "2021-11-11T00:33:32",
+    "createdDate": "2008-12-20T23:46:35",
+    "deletedDate": null,
+    "catalogDate": "2006-02-28T00:00:00",
+    "deleted": false,
+    "suppressed": false,
+    "locations": [
+      {
+        "code": "mal",
+        "name": "SASB - Service Desk Rm 315"
+      }
+    ],
+    "lang": {
+      "code": "ger",
+      "name": "German"
+    },
+    "materialType": {
+      "code": "a  ",
+      "value": "BOOK/TEXT"
+    },
+    "bibLevel": {
+      "code": "m",
+      "value": "MONOGRAPH"
+    },
+    "country": {
+      "code": "gw ",
+      "name": "Germany"
+    },
+    "normTitle": "es ist doch ein wesen besonderer art hugo von hofmannsthals ariadne auf naxos und stuttgart",
+    "normAuthor": "seng joachim",
+    "fixedFields": {
+      "24": {
+        "label": "Language",
+        "value": "ger",
+        "display": "German"
+      },
+      "25": {
+        "label": "Skip",
+        "value": "0",
+        "display": null
+      },
+      "26": {
+        "label": "Location",
+        "value": "mal  ",
+        "display": "SASB - Service Desk Rm 315"
+      },
+      "27": {
+        "label": "COPIES",
+        "value": "1",
+        "display": null
+      },
+      "28": {
+        "label": "Cat. Date",
+        "value": "2006-02-28",
+        "display": null
+      },
+      "29": {
+        "label": "Bib Level",
+        "value": "m",
+        "display": "MONOGRAPH"
+      },
+      "30": {
+        "label": "Material Type",
+        "value": "a  ",
+        "display": "BOOK/TEXT"
+      },
+      "31": {
+        "label": "Bib Code 3",
+        "value": "-",
+        "display": null
+      },
+      "80": {
+        "label": "Record Type",
+        "value": "b",
+        "display": null
+      },
+      "81": {
+        "label": "Record Number",
+        "value": "16136665",
+        "display": null
+      },
+      "83": {
+        "label": "Created Date",
+        "value": "2008-12-20T23:46:35Z",
+        "display": null
+      },
+      "84": {
+        "label": "Updated Date",
+        "value": "2021-11-11T00:33:32Z",
+        "display": null
+      },
+      "85": {
+        "label": "No. of Revisions",
+        "value": "6",
+        "display": null
+      },
+      "86": {
+        "label": "Agency",
+        "value": "1",
+        "display": null
+      },
+      "89": {
+        "label": "Country",
+        "value": "gw ",
+        "display": "Germany"
+      },
+      "98": {
+        "label": "PDATE",
+        "value": "2021-10-22T22:03:50Z",
+        "display": null
+      },
+      "107": {
+        "label": "MARC Type",
+        "value": " ",
+        "display": null
+      }
+    },
+    "varFields": [
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "100",
+        "fieldTag": "a",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Seng, Joachim."
+          }
+        ]
+      },
+      {
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "852",
+        "fieldTag": "c",
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "JAX B-17854"
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "600",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hofmannsthal, Hugo von,"
+          },
+          {
+            "tag": "d",
+            "content": "1874-1929"
+          },
+          {
+            "tag": "x",
+            "content": "Performances"
+          },
+          {
+            "tag": "z",
+            "content": "Germany"
+          },
+          {
+            "tag": "z",
+            "content": "Stuttgart."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "600",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Strauss, Richard,"
+          },
+          {
+            "tag": "d",
+            "content": "1864-1949."
+          },
+          {
+            "tag": "t",
+            "content": "Ariadne auf Naxos."
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "600",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Strauss, Richard,"
+          },
+          {
+            "tag": "d",
+            "content": "1864-1949"
+          },
+          {
+            "tag": "x",
+            "content": "Performances"
+          },
+          {
+            "tag": "z",
+            "content": "Germany"
+          },
+          {
+            "tag": "z",
+            "content": "Stuttgart."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "650",
+        "fieldTag": "d",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Opera"
+          },
+          {
+            "tag": "x",
+            "content": "Performances"
+          },
+          {
+            "tag": "z",
+            "content": "Germany"
+          },
+          {
+            "tag": "z",
+            "content": "Stuttgart."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "020",
+        "fieldTag": "i",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "3937384103"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "035",
+        "fieldTag": "l",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(WaOLN)M240000346"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "500",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Cover title."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "500",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "\"August 2005\"--Colophon."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "504",
+        "fieldTag": "n",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Includes bibliographical references."
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "64282178",
+        "marcTag": "001",
+        "fieldTag": "o",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "260",
+        "fieldTag": "p",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Marbach am Neckar :"
+          },
+          {
+            "tag": "b",
+            "content": "Deutsche Schillergesellschaft,"
+          },
+          {
+            "tag": "c",
+            "content": "[2005]"
+          }
+        ]
+      },
+      {
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "852",
+        "fieldTag": "q",
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "JAX B-17854"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "300",
+        "fieldTag": "r",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "14 p. :"
+          },
+          {
+            "tag": "b",
+            "content": "ill., maps ;"
+          },
+          {
+            "tag": "c",
+            "content": "25 cm. +"
+          },
+          {
+            "tag": "e",
+            "content": "1 folded accordian sheet ([15] p. : col. ill. ; 19 x 99 cm. folded to 19 x 13 cm.)"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "440",
+        "fieldTag": "s",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Spuren ;"
+          },
+          {
+            "tag": "v",
+            "content": "72"
+          }
+        ]
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "245",
+        "fieldTag": "t",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "\"--es ist doch ein Wesen besonderer Art\" :"
+          },
+          {
+            "tag": "b",
+            "content": "Hugo von Hofmannsthals \"Ariadne auf Naxos\" und Stuttgart /"
+          },
+          {
+            "tag": "c",
+            "content": "Joachim Seng."
+          }
+        ]
+      },
+      {
+        "ind1": "3",
+        "ind2": "0",
+        "content": null,
+        "marcTag": "246",
+        "fieldTag": "u",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hugo von Hofmannsthals \"Ariadne auf Naxos\" und Stuttgart"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "959",
+        "fieldTag": "v",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": ".b7837652x"
+          },
+          {
+            "tag": "b",
+            "content": "02-28-06"
+          },
+          {
+            "tag": "c",
+            "content": "09-20-05"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "OCoLC",
+        "marcTag": "003",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "20060228101157.7",
+        "marcTag": "005",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": "060224s2005    gw ab    b    000 0 ger dnamIa ",
+        "marcTag": "008",
+        "fieldTag": "y",
+        "subfields": null
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "040",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "NYP"
+          },
+          {
+            "tag": "c",
+            "content": "NYP"
+          },
+          {
+            "tag": "d",
+            "content": "UtOrBLW"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "043",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "e-gx---"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "049",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "NYPP"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "901",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "b",
+            "content": "hg"
+          },
+          {
+            "tag": "c",
+            "content": "CMC/DTT"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "946",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "m"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "997",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "hg"
+          },
+          {
+            "tag": "b",
+            "content": "02-28-06"
+          },
+          {
+            "tag": "c",
+            "content": "m"
+          },
+          {
+            "tag": "d",
+            "content": "a"
+          },
+          {
+            "tag": "e",
+            "content": "-"
+          },
+          {
+            "tag": "f",
+            "content": "ger"
+          },
+          {
+            "tag": "g",
+            "content": "gw "
+          },
+          {
+            "tag": "h",
+            "content": "0"
+          }
+        ]
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "marcTag": "910",
+        "fieldTag": "y",
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "RL"
+          }
+        ]
+      },
+      {
+        "ind1": null,
+        "ind2": null,
+        "content": "00000nam  2200349Ia 4500",
+        "marcTag": null,
+        "fieldTag": "_",
+        "subfields": null
+      }
+    ]
+  },
+  "count": 1,
+  "statusCode": 200
+}

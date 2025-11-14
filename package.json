@@ -14,13 +14,13 @@
     "run-qa": "./node_modules/.bin/nodemon app-local.js --profile nypl-digital-dev --envfile config/qa.env",
     "deploy-production": "./node_modules/.bin/node-lambda deploy -e production -f ./config/production.env --role arn:aws:iam::946183545209:role/lambda-full-access --profile nypl-digital-dev",
     "run-production": "./node_modules/.bin/nodemon app-local.js --profile nypl-digital-dev --envfile config/production.env",
-    "test": "./node_modules/.bin/standard --env mocha --globals expect && NODE_ENV=test ./node_modules/.bin/mocha test"
+    "test": "./node_modules/.bin/standard --env mocha && NODE_ENV=test ./node_modules/.bin/mocha test"
   },
   "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
   "license": "ISC",
   "dependencies": {
     "@nypl/nypl-data-api-client": "^2.0.0",
-    "aws-sdk": "^2.118.0",
+    "@aws-sdk/client-kms": "^3.926.0",
     "aws-serverless-express": "^3.0.2",
     "cors": "^2.8.4",
     "express": "^4.15.4",
@@ -37,8 +37,18 @@
     "dotenv": "^4.0.0",
     "lambda-tester": "4.0.1",
     "mocha": "10.7.0",
-    "nodemon": "^1.12.1",
     "sinon": "18.0.0",
     "standard": "17.1.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "it",
+      "expect"
+    ]
   }
 }

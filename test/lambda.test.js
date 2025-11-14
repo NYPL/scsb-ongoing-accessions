@@ -9,13 +9,6 @@ const DataApiClient = require('@nypl/nypl-data-api-client')
 
 const handler = require('../index').handler
 
-// Express opens a bunch of /tmp/server* sockets during tests, so make sure they're closed on exit:
-const exitHandler = require('../index').exitHandler
-process.on('exit', exitHandler.bind(null, { cleanup: true }))
-process.on('SIGINT', exitHandler.bind(null, { exit: true })) // ctrl+c event
-process.on('SIGTSTP', exitHandler.bind(null, { exit: true })) // ctrl+v event
-process.on('uncaughtException', exitHandler.bind(null, { exit: true }))
-
 describe('Lambda index handler', function () {
   before(function () {
     sinon.stub(kmsHelper, 'decryptNyplOauthSecret').callsFake(function (encrypted) {
@@ -41,7 +34,6 @@ describe('Lambda index handler', function () {
 
   after(function () {
     DataApiClient.prototype.get.restore()
-    exitHandler({ exit: true })
   })
 
   it('should respond with error if customerCode missing', function () {
@@ -172,7 +164,7 @@ describe('Lambda index handler', function () {
                 return h
               }, {})
             expect(subfieldsIn876.p).to.equal('33433047331719')
-            // expect(subfieldsIn876['h']).to.equal('In Library Use') #TODO: Check to make sure this is correct.
+            expect(subfieldsIn876.h).to.be.a('undefined')
             expect(subfieldsIn876.j).to.equal('Available')
 
             // Map subfield values in 900:
@@ -183,12 +175,67 @@ describe('Lambda index handler', function () {
                 h[subfield.$.code] = subfield._
                 return h
               }, {})
-            // expect(subfieldsIn900['a']).to.equal('Private') #TODO: Check to make sure this is what we want.
+            expect(subfieldsIn900.a).to.equal('Shared')
             expect(subfieldsIn900.b).to.equal('PL')
 
             resolve()
           })
         })
       })
+  })
+
+  describe('CGD', () => {
+    [
+      {
+        barcode: '33433073014411',
+        customerCode: 'NH',
+        expectedCgd: 'Shared'
+      },
+      {
+        barcode: '33433032948998',
+        customerCode: 'NP',
+        expectedCgd: 'Private'
+      },
+      {
+        barcode: '33433135970691',
+        customerCode: 'NA',
+        expectedCgd: 'Committed'
+      }
+    ].forEach(({ barcode, customerCode, expectedCgd }) => {
+      it(`should identify ${expectedCgd} CGD for ${barcode}, ${customerCode}`, async () => {
+        return LambdaTester(handler)
+          .event({ path: '/api/v0.1/recap/nypl-bibs', queryStringParameters: { barcode, customerCode } })
+          .expectResult((result) => {
+            expect(result.statusCode).to.equal(200)
+
+            return new Promise((resolve, reject) => {
+              xml2js.parseString(result.body, function (err, body) {
+                if (err) reject(err)
+
+                expect(body).to.be.a('object')
+                expect(body.bibRecords).to.be.a('object')
+                expect(body.bibRecords?.bibRecord[0]?.holdings[0]?.holding[0]?.items).to.be.a('array')
+
+                const items = body.bibRecords.bibRecord[0].holdings[0].holding[0].items
+                expect(items[0]?.content[0]?.collection[0]?.record[0]?.datafield)
+                  .to.be.a('array')
+                  .to.have.lengthOf(2)
+                expect(items[0]?.content[0]?.collection[0]?.record[0]?.datafield[1]?.subfield[0]).to.deep.equal({
+                  _: expectedCgd,
+                  $: {
+                    code: 'a'
+                  }
+                })
+
+                resolve()
+              })
+            })
+              .catch((e) => {
+                console.log('here with error: ', e)
+                throw e
+              })
+          })
+      })
+    })
   })
 })
