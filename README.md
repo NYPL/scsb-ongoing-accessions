@@ -34,41 +34,11 @@ To run against environment dependencies:
 
 ## Deploying
 
-### Logging into EC2 and Setting Things Up
+CI/CD is configured through GitHub Actions using Terraform. Committing to `production` will deploy to production, committing to `qa` will deploy to QA. For configuration of deployments, see `config/[production|qa]` for environment variables, `.github/workflows/test-and-deploy.yml` for jobs, and `provisioning` directory for information about deployments on AWS.
 
-Because of the dependencies in this app, we need to run our deployments from EC2. Always run deployments from an EC2 instance on the sandbox account.
+### Notes About convert-2-scsb-module
 
-To find the ec2 address, log in to the AWS console, and go to EC2 instances. Look for a recent instance that has a public IP you can access with the dgdvteam.pem (ask a coworker). You will likely want to use the instance's private IP to connect.
-
-`ssh -i path/to/dgdvteam.pem ec2-user@ec.2.add.ress`
-
-Then change to the directory that you will be running the deployment scripts from.
-
-`cd /home/ec2-user/temp`
-
-If this directory doesn't exist, you're in for more fun. Create the temp directory, then cd into it and clone this repo.
-
-It is possible you may also need to install git. If you do, this should work:
-
-`sudo yum install git`
-
-After cloning the repo, you should finally be able to
-
-`cd scsb-ongoing-accessions`
-
-Once cloned, you will need to setup the following:
-
-* AWS credentials at ~/.aws/credentials (needs two profiles for qa and production deployment, named 'nypl-sandbox' and 'nypl-digital-dev' respectively -- best to get this from a coworker, too. (if you need to upload them from local to aws, use `scp -i path/to-dgdvteam.pem credentials ec2-user@ec.2.add.ress:~/.` then `mv credentials .aws/credentials`)
-* nvm via `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash` ... then reconnect.
-* node 6.10.3 via `nvm install 6.10.3` , then `nvm use 6.10.3`
-* copy your appropriate config/environment.env file to the server a la your credentails file. .env files are currently not in source control so need to be manually put in place, as well.
-
-It's also possible you may need to install make. Or gcc. Or a bunch of other things. If you do, maybe these will work.
-
-`yum install make glibc-devel gcc patch`
-`yum install gcc-c++`
-
-Once that's all in place, `npm install`. If it works, you should be good to go with deployment.
+This app used to have an external dependency on the `convert-2-scsb-module`, but following upgrade to Node 20 that dependency has been removed, and all the logic for generating the xml has been moved into this repo 
 
 ### Running Deploy Scripts
 
