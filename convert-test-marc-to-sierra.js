@@ -23,6 +23,7 @@ barcodesBoundWith.forEach((b) => {
 H(new marc.Iso2709Reader(fs.createReadStream('data/NYPLTEST.mrc')))
   .map((record) => {
     record = convert2Scsb.parseMrc.convertToJsonCheckSize(record)
+
     record.bNumber = convert2Scsb.parseMrc.extractBnumber(record.mij) // 907|a
     record.bNumber = `.b${++counter}`
     let barcode = null
